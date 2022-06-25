@@ -29,6 +29,9 @@ namespace Metotlar
             SepetManager sepetManager = new SepetManager();
             sepetManager.Ekle(urun1);
             sepetManager.Ekle(urun2);
+
+            sepetManager.Ekle2("Yumurta", 7, "Köy Yumurtası",8);
+            sepetManager.Ekle2("Yoğurt", 10, "Tava Yoğurtu",4);
         }
     }
 }
