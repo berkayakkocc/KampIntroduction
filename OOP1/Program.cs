@@ -22,14 +22,8 @@ namespace OOP1
             productManager.Add(product1);
             Console.WriteLine(product1.ProductName);
 
-            //Camera çıktısı
+           
 
-            int sayi = 100;
-            productManager.BiseyYap(sayi);
-            Console.WriteLine(sayi);
-
-            //100 çıktısı neden çunku biz orda sadece değişkeni attık 100 numarayı değil
-            //ve aşagıdada degişkeni çagırdık 
         }
     }
 }

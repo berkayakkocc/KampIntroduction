@@ -8,13 +8,16 @@ namespace OOP1
 {
     class ProductManager
     {
+        
         public void Add(Product product)
         {
-            product.ProductName = "Camera";
+            Console.WriteLine(product.ProductName+" eklendi");
         }
-        public void BiseyYap(int sayi)
+        public void Update(Product product)
         {
-            sayi = 99;
+            Console.WriteLine(product.ProductName+" güncellendi");
         }
+       
+
     }
 }
