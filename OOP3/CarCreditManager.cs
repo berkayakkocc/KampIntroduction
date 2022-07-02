@@ -12,7 +12,7 @@ namespace OOP3
         {
             //
             //
-            Console.WriteLine("Car Credit  payment plan calculated");
+            Console.WriteLine("Car Credit payment plan is calculated");
         }
 
         public void Do()

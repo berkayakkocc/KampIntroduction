@@ -12,7 +12,7 @@ namespace OOP3
         {
             //
             //
-            Console.WriteLine("Requirement Credit  payment plan calculated");
+            Console.WriteLine("Requirement Credit  payment plan is calculated");
         }
 
         public void Do()

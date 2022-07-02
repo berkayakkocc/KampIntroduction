@@ -16,5 +16,13 @@ namespace OOP3
             credit.Calculate();
            
         }
+        public void GetPriorKnowledge(List<ICreditManager> credits)
+        {
+            foreach (var credit in credits)
+            {
+                credit.Calculate();
+                
+            }
+        }
     }
 }
