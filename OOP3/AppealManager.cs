@@ -8,13 +8,14 @@ namespace OOP3
 {
     class AppealManager
     {
-        public void DoAppeal(ICreditManager credit)
+        public void DoAppeal(ICreditManager credit,List<ILoggerService> loggerServices)
         {
             // Appeal Info
-
-            
             credit.Calculate();
-           
+            foreach (var logger in loggerServices)
+            {
+                logger.Log();
+            }
         }
         public void GetPriorKnowledge(List<ICreditManager> credits)
         {
